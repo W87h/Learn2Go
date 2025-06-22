@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pythagoras - Mathematik</title>
+    <link rel="stylesheet" href="style-mat-de-kontakt.css" />
+</head>
+<body class="mathematik-page">
+    <header>
+        <nav class="nav-container">
+            <a href="index.html" class="home-button" aria-label="Zur Startseite">Startseite</a>
+            <a href="Mathematik.html" class="home-button" aria-label="Zur Mathematik Themen">Mathematik Themen</a>
+        </nav>
+        <h1>Pythagoras</h1>
+        <p>Der Satz des Pythagoras ist eine wichtige Regel in der Geometrie. Er beschreibt die Beziehung zwischen den drei Seiten eines rechtwinkligen Dreiecks. Das ist ein Dreieck, bei dem ein Winkel genau 90° gross ist.</p>
+    </header>
+    <main>
+        <section class="topic-content">
+            <h2>Einführung: Satz des Pythagoras</h2>
+            <h3>Was ist der Satz des Pythagoras?</h3>
+            <p>Der Satz des Pythagoras ist eine wichtige Regel in der Geometrie. Er beschreibt die Beziehung zwischen den drei Seiten eines rechtwinkligen Dreiecks. Das ist ein Dreieck, bei dem ein Winkel genau 90° gross ist.</p>
+            <p>Der Satz sagt:</p>
+            <p><strong>a² + b² = c²</strong></p>
+            <p>Hierbei sind:</p>
+            <ul>
+                <li>a und b die beiden Seiten, die den rechten Winkel einschliessen (Katheten).</li>
+                <li>c die längste Seite gegenüber dem rechten Winkel (Hypotenuse).</li>
+            </ul>
+            <h3>Warum ist der Satz des Pythagoras so wichtig?</h3>
+            <p>🔍 Er hilft beim Rechnen mit Dreiecken<br/>Du kannst mit dem Satz schnell die Länge einer Seite berechnen, wenn du die anderen beiden Seiten kennst.</p>
+            <p>🏗️ Er ist überall im Alltag nützlich<br/>Ob beim Sport, in der Architektur oder in der Technik – der Satz des Pythagoras ist eine der Grundlagen für viele praktische Anwendungen.</p>
+            <h3>Wie funktioniert der Satz des Pythagoras?</h3>
+            <p>👉 Wenn du die Katheten kennst, kannst du die Hypotenuse so berechnen:</p>
+            <p><strong>c = √(a² + b²)</strong></p>
+            <p>👉 Wenn du die Hypotenuse und eine Kathete kennst, kannst du die andere Kathete so berechnen:</p>
+            <p><strong>a = √(c² − b²)</strong></p>
+            <h3>Beispiele</h3>
+            <p>Berechne die Länge der Hypotenuse in den folgenden Dreiecken:</p>
+            <ol>
+                <li>1️⃣ Seitenlängen: 3 cm und 4 cm<br/>c = √(3² + 4²) = √(9 + 16) = √25 = 5 cm</li>
+                <li>2️⃣ Seitenlängen: 5 cm und 12 cm<br/>c = √(5² + 12²) = √(25 + 144) = √149 = 13 cm</li>
+                <li>3️⃣ Seitenlängen: 8 cm und 15 cm<br/>c = √(8² + 15²) = √(64 + 225) = √289 = 17 cm</li>
+            </ol>
+            <h2>Übungen</h2>
+            <p>Jetzt bist du dran! Versuche die folgenden Aufgaben zu lösen:</p>
+            <form id="exercise-form">
+                <ol>
+                    <li>
+                        Berechne die Hypotenuse eines Dreiecks mit den Katheten 6 cm und 8 cm.<br/>
+                        <input type="text" name="answer1" id="answer1" placeholder="Deine Antwort" />
+                        <button type="button" class="check-btn" data-answer="10" data-feedback="feedback1">Antwort prüfen</button>
+                        <span class="feedback" id="feedback1"></span>
+                    </li>
+                    <li>
+                        Finde die Länge einer Kathete, wenn die Hypotenuse 13 cm und die andere Kathete 5 cm lang ist.<br/>
+                        <input type="text" name="answer2" id="answer2" placeholder="Deine Antwort" />
+                        <button type="button" class="check-btn" data-answer="12" data-feedback="feedback2">Antwort prüfen</button>
+                        <span class="feedback" id="feedback2"></span>
+                    </li>
+                    <li>
+                        Bestimme, ob ein Dreieck mit Seitenlängen 7 cm, 24 cm und 25 cm rechtwinklig ist.<br/>
+                        <input type="text" name="answer3" id="answer3" placeholder="Deine Antwort" />
+                        <button type="button" class="check-btn" data-answer="ja" data-feedback="feedback3">Antwort prüfen</button>
+                        <span class="feedback" id="feedback3"></span>
+                    </li>
+                </ol>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Lernportal. Alle Rechte vorbehalten. <a href="Kontakt.html">Kontakt</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

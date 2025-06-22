@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gleichungen - Mathematik</title>
+    <link rel="stylesheet" href="style-mat-de-kontakt.css" />
+</head>
+
+<body class="mathematik-page">
+    <header>
+        <nav class="nav-container">
+            <a href="index.html" class="home-button" aria-label="Zur Startseite">Startseite</a>
+            <a href="Mathematik.html" class="home-button" aria-label="Zur Mathematik Themen">Mathematik Themen</a>
+        </nav>
+        <h1>Gleichungen</h1>
+        <p>Gleichungen sind mathematische Aussagen, die zwei Ausdrücke mit einem Gleichheitszeichen verbinden.</p>
+    </header>
+    <main>
+        <section class="topic-content">
+            <h2>Einführung: Gleichungen</h2>
+            <h3>Was sind Gleichungen?</h3>
+            <p>Eine Gleichung ist eine mathematische Aussage, die zeigt, dass zwei Terme oder Ausdrücke denselben Wert
+                haben. Sie wird mit einem Gleichheitszeichen (=) dargestellt. Zum Beispiel bedeutet:</p>
+            <p><strong>2x + 3 = 7</strong> dass der Ausdruck links („2x + 3“) genau so gross ist wie der Ausdruck rechts
+                („7“).</p>
+            <h3>Warum sind Gleichungen wichtig?</h3>
+            <p>Gleichungen helfen uns dabei, Unbekanntes zu finden — zum Beispiel herauszufinden, welche Zahl für „x“
+                eingesetzt werden muss, damit die Aussage stimmt. Das Lösen von Gleichungen ist eine wichtige Fähigkeit,
+                die in vielen Bereichen der Mathematik (und im Alltag!) benötigt wird.</p>
+            <h3>Arten von Gleichungen</h3>
+            <p>Es gibt verschiedene Arten von Gleichungen, die man kennen sollte:</p>
+            <ul>
+                <li><strong>Lineare Gleichungen:</strong> Diese Gleichungen enthalten die Variable „x“ (oder eine andere
+                    Unbekannte) höchstens in der ersten Potenz. Beispiel: 2x + 3 = 7</li>
+                <li><strong>Quadratische Gleichungen:</strong> Diese Gleichungen enthalten die Variable in der zweiten
+                    Potenz (also x²). Beispiel: x² − 4x + 3 = 0</li>
+                <li><strong>Gleichungen mit Klammern:</strong> Hier kommen Klammern vor, die zuerst aufgelöst werden
+                    müssen. Beispiel: 3(x − 2) = 9</li>
+            </ul>
+            <h3>Wie löst man Gleichungen?</h3>
+            <ol>
+                <li><strong>Umformen:</strong> Zuerst versuchst du, die Variable zu isolieren (d.h. „x“ alleine auf
+                    einer Seite stehen zu haben).</li>
+                <li><strong>Rechenregeln beachten:</strong> Klammern auflösen, gleiche Terme zusammenfassen, beide
+                    Seiten der Gleichung gleich behandeln (z.B. auf beiden Seiten die gleiche Zahl addieren oder
+                    subtrahieren).</li>
+                <li><strong>Lösung prüfen:</strong> Setze deine Lösung wieder in die Gleichung ein, um zu prüfen, ob die
+                    Gleichung stimmt.</li>
+            </ol>
+            <h2>Übungen</h2>
+            <p>Versuche, die folgenden Aufgaben zu lösen:</p>
+            <form id="exercise-form">
+                <ol>
+                    <li>
+                        Löse die Gleichung:<br>
+                        3(x + 4) = 21<br />
+                        <input type="text" name="answer1" id="answer1" placeholder="x = ?" />
+                        <button type="button" class="check-btn" data-answer="x=3" data-feedback="feedback1">Antwort
+                            prüfen</button>
+                        <span class="feedback" id="feedback1"></span>
+                    </li>
+
+                    <li>
+                        Löse die Gleichung:<br>
+                        (x - 1)/2 = 4<br />
+                        <input type="text" name="answer2" id="answer2" placeholder="x = ?" />
+                        <button type="button" class="check-btn" data-answer="x=9" data-feedback="feedback2">Antwort
+                            prüfen</button>
+                        <span class="feedback" id="feedback2"></span>
+                    </li>
+
+                    <li>
+                        Finde die Lösungen der Gleichung:<br>
+                        x² - x - 6 = 0<br />
+                        <input type="text" name="answer3" id="answer3" placeholder="x = ? und x = ?" />
+                        <button type="button" class="check-btn" data-answer="x=3,x=-2" data-feedback="feedback3">Antwort
+                            prüfen</button>
+                        <span class="feedback" id="feedback3"></span>
+                    </li>
+
+                </ol>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Lernportal. Alle Rechte vorbehalten. <a href="Kontakt.html">Kontakt</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

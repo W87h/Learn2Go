@@ -1,0 +1,42 @@
+.dark-mode-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 30px;
+    background-color: #222;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+.dark-mode-toggle.light {
+    background-color: #f39c12;
+}
+
+.dark-mode-toggle .toggle-circle {
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.dark-mode-toggle.light .toggle-circle {
+    transform: translateX(20px);
+}
+
+.dark-mode-toggle .icon {
+    font-size: 18px;
+    color: white;
+    user-select: none;
+}
+
+.dark-mode-toggle.light .icon {
+    color: #f39c12;
+}

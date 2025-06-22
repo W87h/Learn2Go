@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mathematische Funktionen - Mathematik</title>
+    <link rel="stylesheet" href="style-mat-de-kontakt.css" />
+</head>
+
+<body class="mathematik-page">
+    <header>
+        <nav class="nav-container">
+            <a href="index.html" class="home-button" aria-label="Zur Startseite">Startseite</a>
+            <a href="Mathematik.html" class="home-button" aria-label="Zur Mathematik Themen">Mathematik Themen</a>
+        </nav>
+        <h1>Mathematische Funktionen</h1>
+        <p>Funktionen sind grundlegende Konzepte in der Mathematik, die Beziehungen zwischen Variablen beschreiben.</p>
+    </header>
+    <main>
+        <section class="topic-content">
+            <h2>Einführung: Mathematische Funktionen</h2>
+            <h3>Was ist eine Funktion?</h3>
+            <p>Eine Funktion ist eine Art „Rechenvorschrift“, die jedem Wert aus einer Menge (meistens eine Zahl,
+                genannt x) genau einen Wert aus einer anderen Menge (meistens eine Zahl, genannt y oder f(x)) zuordnet.
+            </p>
+            <p>Du kannst dir eine Funktion wie eine Maschine vorstellen:</p>
+            <ul>
+                <li>Du steckst eine Zahl hinein (x).</li>
+                <li>Die Maschine rechnet damit und spuckt eine neue Zahl aus (f(x)).</li>
+            </ul>
+            <h3>Warum sind Funktionen wichtig?</h3>
+            <p>🔍 Sie helfen uns, Zusammenhänge zu verstehen<br />Mit Funktionen kannst du mathematische Zusammenhänge
+                darstellen — zum Beispiel, wie sich eine Grösse verändert, wenn eine andere grösser wird.</p>
+            <p>📈 Sie tauchen überall auf<br />Funktionen begegnen dir in Physik, Chemie, Wirtschaft, Informatik — und
+                natürlich in der Mathematik.</p>
+            <h3>Grundlagen zu Funktionen</h3>
+            <p>👉 Jede Funktion besteht aus:</p>
+            <ul>
+                <li>Eingabe (x) — der Wert, den du einsetzt.</li>
+                <li>Ausgabe (f(x)) — der Wert, den die Funktion berechnet.</li>
+            </ul>
+            <p>Ein Beispiel:</p>
+            <p><strong>f(x) = 2x + 3</strong></p>
+            <p>Wenn du x = 5 einsetzt, rechnest du:</p>
+            <p><strong>f(5) = 2⋅5 + 3 = 13</strong></p>
+            <h3>Beispiele</h3>
+            <p>Hier ein paar typische Funktionen, die dir im Unterricht begegnen:</p>
+            <ul>
+                <li>✅ <strong>Lineare Funktion:</strong> f(x) = 2x + 3<br />Diese Funktion wächst gleichmässig: Wenn x
+                    grösser wird, wächst f(x) ebenfalls linear.</li>
+                <li>✅ <strong>Quadratische Funktion:</strong> g(x) = x² - 4x + 1<br />Hier ist der höchste Exponent von
+                    x eine 2. Diese Funktion bildet eine Parabel, die nach oben geöffnet ist.</li>
+                <li>✅ <strong>Wurzelfunktion:</strong> h(x) = √x<br />Hier darf x nur grösser oder gleich 0 sein, weil
+                    man keine Wurzel aus einer negativen Zahl ziehen kann.</li>
+            </ul>
+            <h2>Übungen</h2>
+            <p>Jetzt bist du dran! Versuche die folgenden Aufgaben zu lösen:</p>
+            <form id="exercise-form">
+                <ol>
+                    <li>
+                        Gegeben ist die Funktion f(x) = 3x − 2. <br />
+                        Berechne f(4).<br />
+                        <input type="text" name="answer1" id="answer1" placeholder="Deine Antwort" />
+                        <button type="button" class="check-btn" data-answer="10" data-feedback="feedback1">Antwort
+                            prüfen</button>
+                        <span class="feedback" id="feedback1"></span>
+                    </li>
+
+                    <li>
+                        Finde die Nullstellen von f(x) = x² − 2x − 8.<br />
+                        <input type="text" name="answer2" id="answer2" placeholder="z. B. x=4,x=-2" />
+                        <button type="button" class="check-btn" data-answer="x=4,x=-2" data-feedback="feedback2">Antwort
+                            prüfen</button>
+                        <span class="feedback" id="feedback2"></span>
+                    </li>
+
+                    <li>
+                        Bestimme den Definitionsbereich von f(x) = 1 / (x − 5).<br />
+                        <input type="text" name="answer3" id="answer3" placeholder="Deine Antwort" />
+                        <button type="button" class="check-btn" data-answer="x≠5" data-feedback="feedback3">Antwort
+                            prüfen</button>
+                        <span class="feedback" id="feedback3"></span>
+                    </li>
+
+                </ol>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Lernportal. Alle Rechte vorbehalten. <a href="Kontakt.html">Kontakt</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

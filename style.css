@@ -1,0 +1,372 @@
+/* Grundlegendes Styling für die Lernplattform */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Heller Hintergrund passend zu Mathematik und Deutsch Seiten */
+    color: #333; /* Dunkleres Grau für bessere Lesbarkeit */
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff; /* 2ter TEXT */
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+p, li, a, label {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+a {
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn-primary {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Header */
+header {
+    background-color: #b58900; /* goldgelb */
+    color: #fdf6e3;
+}
+
+/* Navigation links */
+.nav-links a {
+    color: #fdf6e3;
+}
+
+.nav-links a:hover {
+    color: #f0c419;
+}
+
+/* Subject boxes */
+.subject-box {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(181, 137, 0, 0.1);
+    color: #657b83;
+}
+
+.subject-box:hover {
+    box-shadow: 0 0 15px rgba(181, 137, 0, 0.4);
+}
+
+/* Footer */
+footer {
+    background-color: #b58900;
+    color: #fdf6e3;
+}
+
+header {
+    background-color: #035036c0;
+    color: #e0e0e0;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+    font-weight: 600;
+}
+
+nav.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.site-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.logo-image {
+    height: 50px;
+    width: auto;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #4caf50;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.line {
+    height: 3px;
+    width: 25px;
+    background-color: #4caf50;
+    margin: 4px 0;
+    border-radius: 2px;
+}
+
+.hero {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #4caf50;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    color: #cfcfcfb4;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #4caf50;
+    color: #121212;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #3a9d3a;
+}
+
+.lern-inhalte {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.lern-inhalte h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #668367;         /*Lerninhalte entdecken*/
+}
+
+.lern-inhalte p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #030e03;       /*Spannende Themen aus Mathematik und Deutsch, die dir helfen, deine Prüfungen erfolgreich zu meistern.*/
+}
+
+.lern-inhalte-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: nowrap;
+}
+
+.lern-inhalt-card {
+    background-color: #1f1f1f;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 220px;
+    flex: 0 0 auto;
+}
+
+.lern-inhalt-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 10px 30px rgba(76, 175, 80, 0.6);
+}
+
+.lern-inhalte-grid .lern-inhalt-card:nth-child(4) {
+    grid-column: 2 / 3;
+}
+
+.lern-inhalt-card {
+    background-color: #1f1f1f;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lern-inhalt-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 10px 30px rgba(76, 175, 80, 0.6);
+}
+
+.lern-inhalt-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.lern-inhalt-card h3 {
+    margin-bottom: 15px;
+    color: #4caf50;
+    font-size: 1.5rem;
+}
+
+.lern-inhalt-card p {
+    color: #cfcfcf;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/* Subjects Section */
+.subjects {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+    gap: 40px;
+}
+
+.subject-box {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px 40px;
+    margin: 0 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subject-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(76, 175, 80, 0.6);
+}
+
+.subject-box a {
+    color: #4caf50;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.subject-box a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212;
+    color: #4caf50;
+    font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .subjects {
+        flex-direction: column;
+    }
+}
+
+.logo-image {
+    height: 150px;
+    width: auto;
+    margin-right: 15px;
+}
+
+/* Deutsch Seite: rechteckige Boxen für Themen */
+.deutsch-topics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.deutsch-topic-card {
+    background-color: #fff8dc;
+    border: 2px solid #b58900;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #657b83;
+    text-decoration: none;
+    box-shadow: 2px 2px 8px rgba(181, 137, 0, 0.3);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+}
+
+.deutsch-topic-card:hover {
+    background-color: #fdf6e3;
+    box-shadow: 4px 4px 12px rgba(181, 137, 0, 0.5);
+    color: #b58900;
+}

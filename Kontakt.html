@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kontakt - Lernportal für Schüler</title>
+    <link rel="stylesheet" href="style-kontakt.css" />
+</head>
+<body class="kontakt-page">
+    <header>
+        <nav class="nav-container">
+            <div class="logo">Lernportal</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Mathematik.html">Mathematik</a></li>
+                <li><a href="Deutsch.html">Deutsch</a></li>
+                <li><a href="Kontakt.html" class="active">Kontakt</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <h1>Kontakt</h1>
+        <p>Haben Sie Fragen? Kontaktieren Sie uns gerne über das Formular oder per E-Mail.</p>
+    </header>
+    <main>
+        <section class="contact-form-section">
+            <form id="contact-form" novalidate>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Ihr Name" required />
+
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" placeholder="Ihre E-Mail-Adresse" required />
+
+                <label for="title">Betreff:</label>
+                <input type="text" id="title" name="title" placeholder="Betreff" required />
+
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" placeholder="Ihre Nachricht" rows="5" required></textarea>
+
+                <button type="submit">Absenden</button>
+            </form>
+            <div id="form-message" class="form-message"></div>
+            <p>Oder schreiben Sie uns direkt eine E-Mail an: <a href="mailto:learn2goteam@gmail.com">learn2goteam@gmail.com</a></p>
+            <p> 
+
+                
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Lernportal. Alle Rechte vorbehalten.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("6VR-ZTh2KAqQcuWkP");
+        })();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
