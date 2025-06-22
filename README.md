@@ -1,6 +1,9 @@
 # Learn2Go
 
-Learn2Go ist eine moderne, browserbasierte Lernplattform für Schüler*innen der Sekundarstufe I (insbesondere 9. Klasse).
-Die Seite bietet interaktive Aufgaben und verständliche Erklärungen in den Fächern Mathematik und Deutsch – zu Themen wie Gleichungen, Satz des Pythagoras, Zeitformen, Zeichensetzung, Wortarten u. v. m.
+🎓 Eine interaktive Lernplattform für Schüler*innen der 9. Klasse.  
+Übungen, Erklärungen & Tests für Mathematik und Deutsch – einfach & kostenlos.
 
-Entwickelt als Schulprojekt, ist Learn2Go komplett kostenlos, anonym nutzbar und jederzeit online über GitHub Pages erreichbar.
+🌐 **Zur Website**:  
+👉 [Jetzt starten](https://w87h.github.io/Learn2Go/index.html)
+
+![Viel Erfolg beim Lernen!](images/preview.png)
