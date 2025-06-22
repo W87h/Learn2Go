@@ -6,4 +6,4 @@
 🌐 **Zur Website**:  
 👉 [Jetzt starten](https://w87h.github.io/Learn2Go/index.html)
 
-![Viel Erfolg beim Lernen!](images/preview.png)
+![Viel Erfolg beim Lernen!]
